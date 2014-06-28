@@ -21,6 +21,7 @@
 		18502BC2195F3BBB00900D3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18502BA4195F3BBB00900D3D /* UIKit.framework */; };
 		18502BCA195F3BBB00900D3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18502BC8195F3BBB00900D3D /* InfoPlist.strings */; };
 		18502BCC195F3BBB00900D3D /* NavigatioBarClearColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18502BCB195F3BBB00900D3D /* NavigatioBarClearColorTests.m */; };
+		18502BD6195F405F00900D3D /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18502BD5195F405F00900D3D /* background.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		18502BC7195F3BBB00900D3D /* NavigatioBarClearColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigatioBarClearColorTests-Info.plist"; sourceTree = "<group>"; };
 		18502BC9195F3BBB00900D3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18502BCB195F3BBB00900D3D /* NavigatioBarClearColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigatioBarClearColorTests.m; sourceTree = "<group>"; };
+		18502BD5195F405F00900D3D /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				18502BB2195F3BBB00900D3D /* Main.storyboard */,
 				18502BB5195F3BBB00900D3D /* ViewController.h */,
 				18502BB6195F3BBB00900D3D /* ViewController.m */,
+				18502BD5195F405F00900D3D /* background.jpeg */,
 				18502BB8195F3BBB00900D3D /* Images.xcassets */,
 				18502BA7195F3BBB00900D3D /* Supporting Files */,
 			);
@@ -231,6 +234,7 @@
 				18502BB9195F3BBB00900D3D /* Images.xcassets in Resources */,
 				18502BAB195F3BBB00900D3D /* InfoPlist.strings in Resources */,
 				18502BB4195F3BBB00900D3D /* Main.storyboard in Resources */,
+				18502BD6195F405F00900D3D /* background.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +460,7 @@
 				18502BD1195F3BBB00900D3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18502BD2195F3BBB00900D3D /* Build configuration list for PBXNativeTarget "NavigatioBarClearColorTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				18502BD4195F3BBB00900D3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

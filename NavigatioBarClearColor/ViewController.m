@@ -11,6 +11,7 @@
 @interface ViewController ()<UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *topConstraint;
 
 @end
 
@@ -20,8 +21,31 @@
 {
     [super viewDidLoad];
     
+    self.navigationController.navigationBar.shadowImage = [UIImage new];
+    self.navigationController.navigationBar.translucent = YES;
+    self.navigationController.view.backgroundColor = [UIColor clearColor];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    
+    
     self.automaticallyAdjustsScrollViewInsets  =  NO;
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+    [super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
+    
+    if (UIInterfaceOrientationIsPortrait(toInterfaceOrientation))
+    {
+        self.topConstraint.constant = 64;
+    }
+    else
+    {
+        self.topConstraint.constant = 52;
+
+    }
+    
+    //[self updateViewConstraints];
 }
 
 - (void)didReceiveMemoryWarning
