@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18502BA1195F3BBB00900D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18502BA0195F3BBB00900D3D /* Foundation.framework */; };
+		18502BA3195F3BBB00900D3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18502BA2195F3BBB00900D3D /* CoreGraphics.framework */; };
+		18502BA5195F3BBB00900D3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18502BA4195F3BBB00900D3D /* UIKit.framework */; };
+		18502BAB195F3BBB00900D3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18502BA9195F3BBB00900D3D /* InfoPlist.strings */; };
+		18502BAD195F3BBB00900D3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18502BAC195F3BBB00900D3D /* main.m */; };
+		18502BB1195F3BBB00900D3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18502BB0195F3BBB00900D3D /* AppDelegate.m */; };
+		18502BB4195F3BBB00900D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18502BB2195F3BBB00900D3D /* Main.storyboard */; };
+		18502BB7195F3BBB00900D3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18502BB6195F3BBB00900D3D /* ViewController.m */; };
+		18502BB9195F3BBB00900D3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18502BB8195F3BBB00900D3D /* Images.xcassets */; };
+		18502BC0195F3BBB00900D3D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18502BBF195F3BBB00900D3D /* XCTest.framework */; };
+		18502BC1195F3BBB00900D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18502BA0195F3BBB00900D3D /* Foundation.framework */; };
+		18502BC2195F3BBB00900D3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18502BA4195F3BBB00900D3D /* UIKit.framework */; };
+		18502BCA195F3BBB00900D3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18502BC8195F3BBB00900D3D /* InfoPlist.strings */; };
+		18502BCC195F3BBB00900D3D /* NavigatioBarClearColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18502BCB195F3BBB00900D3D /* NavigatioBarClearColorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18502BC3195F3BBB00900D3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18502B95195F3BBB00900D3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18502B9C195F3BBB00900D3D;
+			remoteInfo = NavigatioBarClearColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18502B9D195F3BBB00900D3D /* NavigatioBarClearColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigatioBarClearColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18502BA0195F3BBB00900D3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18502BA2195F3BBB00900D3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18502BA4195F3BBB00900D3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18502BA8195F3BBB00900D3D /* NavigatioBarClearColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigatioBarClearColor-Info.plist"; sourceTree = "<group>"; };
+		18502BAA195F3BBB00900D3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18502BAC195F3BBB00900D3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18502BAE195F3BBB00900D3D /* NavigatioBarClearColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigatioBarClearColor-Prefix.pch"; sourceTree = "<group>"; };
+		18502BAF195F3BBB00900D3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18502BB0195F3BBB00900D3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18502BB3195F3BBB00900D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18502BB5195F3BBB00900D3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18502BB6195F3BBB00900D3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18502BB8195F3BBB00900D3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18502BBE195F3BBB00900D3D /* NavigatioBarClearColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigatioBarClearColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18502BBF195F3BBB00900D3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18502BC7195F3BBB00900D3D /* NavigatioBarClearColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigatioBarClearColorTests-Info.plist"; sourceTree = "<group>"; };
+		18502BC9195F3BBB00900D3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18502BCB195F3BBB00900D3D /* NavigatioBarClearColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigatioBarClearColorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18502B9A195F3BBB00900D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18502BA3195F3BBB00900D3D /* CoreGraphics.framework in Frameworks */,
+				18502BA5195F3BBB00900D3D /* UIKit.framework in Frameworks */,
+				18502BA1195F3BBB00900D3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18502BBB195F3BBB00900D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18502BC0195F3BBB00900D3D /* XCTest.framework in Frameworks */,
+				18502BC2195F3BBB00900D3D /* UIKit.framework in Frameworks */,
+				18502BC1195F3BBB00900D3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18502B94195F3BBB00900D3D = {
+			isa = PBXGroup;
+			children = (
+				18502BA6195F3BBB00900D3D /* NavigatioBarClearColor */,
+				18502BC5195F3BBB00900D3D /* NavigatioBarClearColorTests */,
+				18502B9F195F3BBB00900D3D /* Frameworks */,
+				18502B9E195F3BBB00900D3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18502B9E195F3BBB00900D3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18502B9D195F3BBB00900D3D /* NavigatioBarClearColor.app */,
+				18502BBE195F3BBB00900D3D /* NavigatioBarClearColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18502B9F195F3BBB00900D3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18502BA0195F3BBB00900D3D /* Foundation.framework */,
+				18502BA2195F3BBB00900D3D /* CoreGraphics.framework */,
+				18502BA4195F3BBB00900D3D /* UIKit.framework */,
+				18502BBF195F3BBB00900D3D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18502BA6195F3BBB00900D3D /* NavigatioBarClearColor */ = {
+			isa = PBXGroup;
+			children = (
+				18502BAF195F3BBB00900D3D /* AppDelegate.h */,
+				18502BB0195F3BBB00900D3D /* AppDelegate.m */,
+				18502BB2195F3BBB00900D3D /* Main.storyboard */,
+				18502BB5195F3BBB00900D3D /* ViewController.h */,
+				18502BB6195F3BBB00900D3D /* ViewController.m */,
+				18502BB8195F3BBB00900D3D /* Images.xcassets */,
+				18502BA7195F3BBB00900D3D /* Supporting Files */,
+			);
+			path = NavigatioBarClearColor;
+			sourceTree = "<group>";
+		};
+		18502BA7195F3BBB00900D3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18502BA8195F3BBB00900D3D /* NavigatioBarClearColor-Info.plist */,
+				18502BA9195F3BBB00900D3D /* InfoPlist.strings */,
+				18502BAC195F3BBB00900D3D /* main.m */,
+				18502BAE195F3BBB00900D3D /* NavigatioBarClearColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18502BC5195F3BBB00900D3D /* NavigatioBarClearColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				18502BCB195F3BBB00900D3D /* NavigatioBarClearColorTests.m */,
+				18502BC6195F3BBB00900D3D /* Supporting Files */,
+			);
+			path = NavigatioBarClearColorTests;
+			sourceTree = "<group>";
+		};
+		18502BC6195F3BBB00900D3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18502BC7195F3BBB00900D3D /* NavigatioBarClearColorTests-Info.plist */,
+				18502BC8195F3BBB00900D3D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18502B9C195F3BBB00900D3D /* NavigatioBarClearColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18502BCF195F3BBB00900D3D /* Build configuration list for PBXNativeTarget "NavigatioBarClearColor" */;
+			buildPhases = (
+				18502B99195F3BBB00900D3D /* Sources */,
+				18502B9A195F3BBB00900D3D /* Frameworks */,
+				18502B9B195F3BBB00900D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigatioBarClearColor;
+			productName = NavigatioBarClearColor;
+			productReference = 18502B9D195F3BBB00900D3D /* NavigatioBarClearColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18502BBD195F3BBB00900D3D /* NavigatioBarClearColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18502BD2195F3BBB00900D3D /* Build configuration list for PBXNativeTarget "NavigatioBarClearColorTests" */;
+			buildPhases = (
+				18502BBA195F3BBB00900D3D /* Sources */,
+				18502BBB195F3BBB00900D3D /* Frameworks */,
+				18502BBC195F3BBB00900D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18502BC4195F3BBB00900D3D /* PBXTargetDependency */,
+			);
+			name = NavigatioBarClearColorTests;
+			productName = NavigatioBarClearColorTests;
+			productReference = 18502BBE195F3BBB00900D3D /* NavigatioBarClearColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18502B95195F3BBB00900D3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BL;
+				TargetAttributes = {
+					18502BBD195F3BBB00900D3D = {
+						TestTargetID = 18502B9C195F3BBB00900D3D;
+					};
+				};
+			};
+			buildConfigurationList = 18502B98195F3BBB00900D3D /* Build configuration list for PBXProject "NavigatioBarClearColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18502B94195F3BBB00900D3D;
+			productRefGroup = 18502B9E195F3BBB00900D3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18502B9C195F3BBB00900D3D /* NavigatioBarClearColor */,
+				18502BBD195F3BBB00900D3D /* NavigatioBarClearColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18502B9B195F3BBB00900D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18502BB9195F3BBB00900D3D /* Images.xcassets in Resources */,
+				18502BAB195F3BBB00900D3D /* InfoPlist.strings in Resources */,
+				18502BB4195F3BBB00900D3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18502BBC195F3BBB00900D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18502BCA195F3BBB00900D3D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18502B99195F3BBB00900D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18502BB7195F3BBB00900D3D /* ViewController.m in Sources */,
+				18502BB1195F3BBB00900D3D /* AppDelegate.m in Sources */,
+				18502BAD195F3BBB00900D3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18502BBA195F3BBB00900D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18502BCC195F3BBB00900D3D /* NavigatioBarClearColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18502BC4195F3BBB00900D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18502B9C195F3BBB00900D3D /* NavigatioBarClearColor */;
+			targetProxy = 18502BC3195F3BBB00900D3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18502BA9195F3BBB00900D3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18502BAA195F3BBB00900D3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18502BB2195F3BBB00900D3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18502BB3195F3BBB00900D3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18502BC8195F3BBB00900D3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18502BC9195F3BBB00900D3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18502BCD195F3BBB00900D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18502BCE195F3BBB00900D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18502BD0195F3BBB00900D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigatioBarClearColor/NavigatioBarClearColor-Prefix.pch";
+				INFOPLIST_FILE = "NavigatioBarClearColor/NavigatioBarClearColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18502BD1195F3BBB00900D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigatioBarClearColor/NavigatioBarClearColor-Prefix.pch";
+				INFOPLIST_FILE = "NavigatioBarClearColor/NavigatioBarClearColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18502BD3195F3BBB00900D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigatioBarClearColor.app/NavigatioBarClearColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigatioBarClearColor/NavigatioBarClearColor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NavigatioBarClearColorTests/NavigatioBarClearColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18502BD4195F3BBB00900D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigatioBarClearColor.app/NavigatioBarClearColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigatioBarClearColor/NavigatioBarClearColor-Prefix.pch";
+				INFOPLIST_FILE = "NavigatioBarClearColorTests/NavigatioBarClearColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18502B98195F3BBB00900D3D /* Build configuration list for PBXProject "NavigatioBarClearColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18502BCD195F3BBB00900D3D /* Debug */,
+				18502BCE195F3BBB00900D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18502BCF195F3BBB00900D3D /* Build configuration list for PBXNativeTarget "NavigatioBarClearColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18502BD0195F3BBB00900D3D /* Debug */,
+				18502BD1195F3BBB00900D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18502BD2195F3BBB00900D3D /* Build configuration list for PBXNativeTarget "NavigatioBarClearColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18502BD3195F3BBB00900D3D /* Debug */,
+				18502BD4195F3BBB00900D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18502B95195F3BBB00900D3D /* Project object */;
+}
