@@ -28,7 +28,6 @@
     
     
     self.automaticallyAdjustsScrollViewInsets  =  NO;
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
